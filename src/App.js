@@ -14,11 +14,9 @@ class App extends React.Component {
           <Route path="/" component={Navigation} />
         </div>
 
-        <div className="app__main">
-          <Route exact path="/main" component={Main} />
-          <Route exact path="/main1" component={Main1} />
-          <Route exact path="/main2" component={Main2} />
-        </div>
+        <Route exact path="/main" component={Main} />
+        <Route exact path="/main1" component={Main1} />
+        <Route exact path="/main2" component={Main2} />
       </div>
     );
   }
