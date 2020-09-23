@@ -8,8 +8,8 @@ class Main1 extends React.Component {
         <div className="main__random">
           <button onClick={this._random}>눌러봐!!!</button>
           <button onClick={this._random}>눌러봐!!!</button>
-          <button onClick={this._random}>눌러봐!!!</button>
           <button onClick={this._random1}>눌러봐!!!</button>
+          <button onClick={this._random}>눌러봐!!!</button>
           <button onClick={this._random}>눌러봐!!!</button>
           <button onClick={this._random}>눌러봐!!!</button>
           <button onClick={this._random}>눌러봐!!!</button>
