@@ -10,9 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <div className="app__header">
-          <Route path="/" component={Navigation} />
-        </div>
+        <Route path="/" component={Navigation} />
 
         <Route exact path="/main" component={Main} />
         <Route exact path="/main1" component={Main1} />
