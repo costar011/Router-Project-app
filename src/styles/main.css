@@ -56,13 +56,41 @@ body {
   background-color: #95a5a6;
   box-shadow: 2px 2px 2px #b2bec3;
 
+  margin-top: 40px;
+  margin-left: 30px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main__random button:hover {
+  color: #0b0b0b;
+}
+
+.main__quiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__quiz button {
+  border: none;
+  background: none;
+  text-decoration: none;
+  list-style: none;
+
+  font-size: 20px;
+
+  color: #808e9b;
+  background-color: #48dbfb;
+  box-shadow: 2px 2px 2px #4bcffa;
+
   font-weight: 600;
   cursor: pointer;
 
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
-.main__random button:hover {
+.main__quiz button:hover {
   color: #0b0b0b;
 }
