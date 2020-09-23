@@ -4,7 +4,7 @@ class Main extends React.Component {
   render() {
     return (
       <div className="main">
-        직업을 눌러보세요 .
+        직업
         <div className="main__job">
           <button onClick={this._policeHandelr}>경찰</button>
           <button onClick={this._teacherHandelr}>교사</button>
